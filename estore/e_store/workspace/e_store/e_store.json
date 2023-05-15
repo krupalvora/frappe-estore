@@ -1,0 +1,92 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"7c-IL3v4n3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">E-Store</span>\",\"col\":12}},{\"id\":\"a_6p26C3J4\",\"type\":\"card\",\"data\":{\"card_name\":\"Category\",\"col\":4}},{\"id\":\"yegAGgUiKR\",\"type\":\"card\",\"data\":{\"card_name\":\"Customer\",\"col\":4}},{\"id\":\"In7uQSzuEZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales\",\"col\":4}}]",
+ "creation": "2023-05-15 15:43:24.071676",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "stock",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "E-Store",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Category",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Category",
+   "link_count": 0,
+   "link_to": "Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Products",
+   "link_count": 0,
+   "link_to": "Products",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Orders",
+   "link_count": 0,
+   "link_to": "Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-05-15 21:14:30.430761",
+ "modified_by": "Administrator",
+ "module": "E-Store",
+ "name": "E-Store",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "E-Store"
+}

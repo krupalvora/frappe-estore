@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:product_name",
+ "creation": "2023-05-15 19:40:03.899303",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "category",
+  "price",
+  "description",
+  "created_date",
+  "updated_date",
+  "image1",
+  "image2",
+  "image3",
+  "discount",
+  "discount_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product name",
+   "unique": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Category"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Int",
+   "label": "Price"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "default": "Now",
+   "fieldname": "created_date",
+   "fieldtype": "Datetime",
+   "label": "Created date",
+   "read_only": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "updated_date",
+   "fieldtype": "Datetime",
+   "label": "Updated date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "image1",
+   "fieldtype": "Attach Image",
+   "label": "Image1"
+  },
+  {
+   "fieldname": "image2",
+   "fieldtype": "Attach Image",
+   "label": "Image2"
+  },
+  {
+   "fieldname": "image3",
+   "fieldtype": "Attach Image",
+   "label": "Image3"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Int",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "discount_percentage",
+   "fieldtype": "Percent",
+   "label": "Discount percentage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-15 19:40:28.122383",
+ "modified_by": "Administrator",
+ "module": "E-Store",
+ "name": "Products",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
