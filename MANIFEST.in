@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include estore *.css
+recursive-include estore *.csv
+recursive-include estore *.html
+recursive-include estore *.ico
+recursive-include estore *.js
+recursive-include estore *.json
+recursive-include estore *.md
+recursive-include estore *.png
+recursive-include estore *.py
+recursive-include estore *.svg
+recursive-include estore *.txt
+recursive-exclude estore *.pyc
