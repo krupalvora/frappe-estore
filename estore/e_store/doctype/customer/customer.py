@@ -6,3 +6,5 @@ from frappe.model.document import Document
 
 class Customer(Document):
 	pass
+	# def before_save(self):
+	# 	self.customer_id='@'+self.name1
