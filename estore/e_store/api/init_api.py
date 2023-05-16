@@ -24,3 +24,4 @@ def get_products():
     data=frappe.db.get_all('Products',['name','price','description','image1'])
     print(data)
     return {"message": message, "response_code": resp_code, "data": data}
+
